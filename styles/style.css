@@ -127,6 +127,7 @@ nav li{
     font-weight: 600;
     font-size: 18px;
     color: #006A50;
+    border-style: none ;
     padding:15px 30px 23px;
     border-radius: 8px;
     border-color: #006A50;
@@ -146,10 +147,10 @@ nav li{
     
 }
 
-.banner-content{
+/* .banner-content{
     
     
-}
+} */
 
 .banner-title{
     font-size: 24px;
@@ -173,6 +174,7 @@ nav li{
     font-weight: 600;
     color: #FFFFFF;
     background-color: #006A50;
+    border-style: none;
     border-radius: 8px;
     border-color: none;
     padding: 17px 34px;
@@ -183,4 +185,137 @@ nav li{
     height: 400px;
     width: 474px;
     padding: 80px 59px;
+}
+/* .visions{
+
+} */
+
+.visions-title{
+  font-family: "Fira Sans", serif;
+  font-size: 40px;
+  font-weight: 700px;
+  color: #0E0E0E;
+  padding: 80px 160px;
+  padding-bottom: 0%;
+
+}
+.visions-description{
+  font-family: "Fira Sans", serif;
+  width: 1280px;
+  font-size: 16px;
+  font-weight: 400px;
+  padding: 0% 160px;
+  color: #0E0E0E;
+}
+
+.btn-primary-2{
+  font-family: "Fira Sans", serif;
+  color: #FFFFFF;
+  border-style: none;
+  font-size: 16px;
+  font-weight: 600px;
+  padding: 11px 20px;
+  border-radius: 8px;
+}
+/* visions section style */
+.visions-container{
+  font-family: "Fira Sans", serif;
+  display: flex;
+  height: 325px;
+  width: 1280px;
+  margin-left: 160px;
+  margin-right: 160px;
+  gap: 24px;
+  flex: content;
+  
+}
+.vision{
+  
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.vison-title{
+  color: #0E0E0E;
+}
+
+.vision-description{
+  color: #0E0E0E;
+}
+.vision-1{
+  width: 410px;
+
+  background-color: #548ff57d;
+}
+
+.vision-2{
+  width: 410px;
+  background-color: #09a15d52;
+}
+.vision-3{
+  width: 410px;
+
+  background-color: #ffc4393e;
+}
+/* style recent news */
+
+.recent-news{
+  font-family: "Fira Sans", serif;
+  margin: 0px 160px;
+  width: 1280px;
+
+}
+
+.recent-news-column{
+  display:;
+  bo;
+}
+
+.news-1{
+  display: flex;
+  height: 402px;
+  width: 1280px;
+  gap: 32px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 4px 0px #00000043;
+  border-radius: 32px;
+  align-items: center;
+}
+
+.news-a img{
+    display: block;
+    overflow: hidden;
+    padding: 48px 0px 48px 48px;
+    border-radius: 32px;
+    
+  }
+
+
+.news-2{
+  display:flex;
+  height: 402px;
+  width: 1280px;
+  gap: 32px;
+  
+  border-top: 20px;
+  border-radius: 32px;
+  align-items: center;
+ 
+}
+
+.btn-news{
+  font-size: 18px;
+  font-weight: 700px;
+  color: #FFFFFF;
+  padding: 13px 26px;
+  background-color: #006A50;
+  border-radius: 8px;
+  border-style: none;
+}
+
+.donate{
+  font-family: "Fira Sans", serif;
+  align-items: center;
+
+
 }
