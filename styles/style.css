@@ -1,112 +1,11 @@
+
+
 .fira-sans-normal {
     font-family: "Fira Sans", serif;
     font-style: normal;
   }
   
-  /* .fira-sans-extralight {
-    font-family: "Fira Sans", serif;
-    font-weight: 200;
-    font-style: normal;
-  }
   
-  .fira-sans-light {
-    font-family: "Fira Sans", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .fira-sans-regular {
-    font-family: "Fira Sans", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .fira-sans-medium {
-    font-family: "Fira Sans", serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .fira-sans-semibold {
-    font-family: "Fira Sans", serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .fira-sans-bold {
-    font-family: "Fira Sans", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .fira-sans-extrabold {
-    font-family: "Fira Sans", serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-  .fira-sans-black {
-    font-family: "Fira Sans", serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .fira-sans-thin-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .fira-sans-extralight-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .fira-sans-light-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .fira-sans-regular-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .fira-sans-medium-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .fira-sans-semibold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .fira-sans-bold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .fira-sans-extrabold-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 800;
-    font-style: italic;
-  }
-  
-  .fira-sans-black-italic {
-    font-family: "Fira Sans", serif;
-    font-weight: 900;
-    font-style: italic;
-  } */
-  
-
-
 /* nav style    */
 nav{
     font-weight: 700px;
@@ -149,10 +48,6 @@ nav li{
     
 }
 
-/* .banner-content{
-    
-    
-} */
 
 .banner-title{
     font-size: 24px;
@@ -188,9 +83,7 @@ nav li{
     width: 474px;
     padding: 80px 59px;
 }
-/* .visions{
 
-} */
 
 .visions-title{
   font-family: "Fira Sans", serif;
@@ -321,7 +214,6 @@ nav li{
  
 }
 
-
 .btn-news{
   font-size: 18px;
   font-weight: 700px;
@@ -333,10 +225,10 @@ nav li{
 }
 
 /* style donate */
+
 .donate{
   font-family: "Fira Sans", serif;
   align-items: center;
-  /* margin: 32px 160px; */
 
 }
 
@@ -382,14 +274,6 @@ nav li{
   
 }
 
-/* .input-ammunt{
-  display: flex;
-  justify-content: center;
-  margin: 32px 124px;
-  height: 52px;
-  width: 720px;
-  
-} */
 .input-amount input{
   text-align: center;
   font-size: 20px;
@@ -405,7 +289,6 @@ nav li{
 .btn-donate-last{
   display: flex;
   justify-content: center;
-  /* padding: 34px 17px; */
 }
 .btn-donate-last button{
   font-family: "Fira Sans", serif;
@@ -418,3 +301,61 @@ nav li{
   border-radius: 8px;
 
 }
+
+/* Subscribe style */
+.subscribe{
+  display: block;
+  font-family: "Fira Sans", serif;
+  justify-items: center;
+  margin: 80px 160px;
+  background-color: #C6E4D6;
+  padding: 80px 265px;
+  border-radius: 24px;
+}
+.subscribe-title{
+  font-size: 40px;
+  font-weight: 700px;
+
+}
+
+.subscribe-description{
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+.sub-input{
+  display: flex;
+}
+
+.sub-input input{
+  height: 55px;
+  width: 600px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-style: none;
+  
+}
+
+.sub-input button{
+  font-size: 18px;
+  font-weight: 600px;
+  color: #FFFFFF;
+  height: 57px;
+  width: 150px;
+  background-color: #006A50;
+  border-style: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.ending{
+  display: block;
+  justify-items: center;
+}
+.ending h3{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* END */
