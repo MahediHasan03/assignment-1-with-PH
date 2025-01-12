@@ -110,6 +110,7 @@
 /* nav style    */
 nav{
     font-weight: 700px;
+    width: 1280px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -132,6 +133,7 @@ nav li{
     border-radius: 8px;
     border-color: #006A50;
     text-decoration: none;
+                            
 }
 /* banner style */
 .banner{
